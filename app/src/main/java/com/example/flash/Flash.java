@@ -1,8 +1,10 @@
 package com.example.flash;
 
+import android.content.Intent;
 import android.hardware.camera2.CameraAccessException;
 import android.hardware.camera2.CameraManager;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.ImageView;
 import android.widget.Toast;
 
@@ -70,5 +72,9 @@ public class Flash extends AppCompatActivity {
             e.printStackTrace();
             Toast.makeText(this, "Не удалось выключить фонарик", Toast.LENGTH_SHORT).show();
         }
+    }
+    public void startCompassActivity(View view) {
+        Intent intent = new Intent(this, Compass.class);
+        startActivity(intent);
     }
 }

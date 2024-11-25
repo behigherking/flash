@@ -4,6 +4,6 @@
     <color name="white">#FFFFFFFF</color>
     <color name="colorRed">#91413c</color>
     <color name="colorGreen">#2f703a</color>
-
+    <color name="fullscreen">#21383b</color>
 
 </resources>

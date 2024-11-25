@@ -1,8 +1,8 @@
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#000000">
+    android:background="@color/fullscreen">
 
 
     <ImageView
@@ -10,6 +10,21 @@
         android:layout_width="200dp"
         android:layout_height="200dp"
         android:layout_centerInParent="true"
-        android:src="@drawable/flash_on"
-        android:contentDescription="Фонарик" />
+        android:contentDescription="Фонарик"
+        android:src="@drawable/flash_on" />
+
+    <Button
+        android:id="@+id/newactivity"
+        android:layout_width="66dp"
+        android:layout_height="55dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="22dp"
+        android:layout_marginBottom="40dp"
+        android:onClick="startCompassActivity"
+        android:textColor="@color/colorGreen"
+        android:textColorLink="#925C5C"
+        app:cornerRadius="16dp"
+        app:icon="@drawable/switches" />
+
 </RelativeLayout>
