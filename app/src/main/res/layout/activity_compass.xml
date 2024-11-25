@@ -33,7 +33,7 @@
         android:layout_centerHorizontal="true"
         android:fontFamily="sans-serif-medium"
         android:text=" 0°C"
-        android:textColor="#A67F7F"
+        android:textColor="#978F8F"
         android:textSize="48sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
